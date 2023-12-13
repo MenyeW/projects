@@ -1,0 +1,23 @@
+.header-box {
+  display: block;
+  padding: 20px;
+  background-color: rgb(2, 27, 42);
+  box-sizing: border-box;
+  border-bottom: 10px solid rgb(10, 9, 54);
+}
+.name {
+  font-size: 40px;
+  color: white;
+}
+
+.info {
+  font-size: 16px;
+  color: silver;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.info a {
+  color: inherit;
+  text-decoration: inherit;
+}
