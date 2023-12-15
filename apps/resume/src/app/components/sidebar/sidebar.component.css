@@ -1,0 +1,20 @@
+.sidebar {
+  height: 100vh;
+  background-color: rgb(5, 30, 50);
+}
+
+.vertical-space {
+  height: 3vh;
+}
+
+.name {
+  font-size: 4vh;
+  color: white;
+}
+
+.info {
+  font-size: 1.8vh;
+  color: silver;
+  margin-bottom: 5px;
+  display: block;
+}
