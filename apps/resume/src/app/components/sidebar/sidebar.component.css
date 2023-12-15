@@ -8,8 +8,30 @@
 }
 
 .name {
-  font-size: 4vh;
+  font-size: 3vh;
   color: white;
+}
+
+.topic {
+  font-size: 2.5vh;
+  color: white;
+  display: block;
+  margin-bottom: 1.5vh;
+}
+
+.u {
+  border-bottom: 1px solid;
+}
+
+.socials div {
+  margin-right: 1vw;
+}
+
+.topic-list {
+  list-style-type: none;
+}
+.topic-list li {
+  margin-bottom: 0.5vh;
 }
 
 .info {

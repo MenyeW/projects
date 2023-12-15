@@ -8,4 +8,20 @@ import { CommonModule } from '@angular/common';
   templateUrl: './sidebar.component.html',
   styleUrl: './sidebar.component.css',
 })
-export class SidebarComponent {}
+export class SidebarComponent {
+  linkedin() {
+    window.open(
+      'https://www.linkedin.com/in/rahul-bhatnagar-29942a106/',
+      '-_blank'
+    );
+  }
+  stackoverflow() {
+    window.open(
+      'https://stackoverflow.com/users/6825431/rahul-bhatnagar',
+      '-_blank'
+    );
+  }
+  github() {
+    window.open('https://github.com/MenyeW', '-_blank');
+  }
+}
