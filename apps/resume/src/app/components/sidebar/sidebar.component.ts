@@ -10,18 +10,12 @@ import { CommonModule } from '@angular/common';
 })
 export class SidebarComponent {
   linkedin() {
-    window.open(
-      'https://www.linkedin.com/in/rahul-bhatnagar-29942a106/',
-      '-_blank'
-    );
+    window.open('https://www.linkedin.com/in/rahul-bhatnagar-29942a106/');
   }
   stackoverflow() {
-    window.open(
-      'https://stackoverflow.com/users/6825431/rahul-bhatnagar',
-      '-_blank'
-    );
+    window.open('https://stackoverflow.com/users/6825431/rahul-bhatnagar');
   }
   github() {
-    window.open('https://github.com/MenyeW', '-_blank');
+    window.open('https://github.com/MenyeW');
   }
 }
