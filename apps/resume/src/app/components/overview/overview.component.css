@@ -1,0 +1,11 @@
+.vertical-space {
+  height: 2vh;
+  display: block;
+}
+
+.topic {
+  font-size: 3vh;
+  font-weight: bold;
+  color: rgb(5, 30, 50);
+  border-bottom: 1px solid rgb(5, 30, 50);
+}

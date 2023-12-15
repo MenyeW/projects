@@ -15,7 +15,7 @@
   <div class="row justify-content-center">
     <div class="col-11 text-center">
       <div class="info btn btn-outline-success">
-        <i class="bi bi-envelope-plus"></i> Contact me
+        <i class="bi bi-envelope-plus"></i> {{ locale['contact_me'] }}
       </div>
     </div>
   </div>
@@ -31,23 +31,27 @@
   </div>
   <div class="row">
     <div class="col text-center">
-      <div class="info"><i class="bi bi-geo-alt"></i> Fürth, Deutschland</div>
+      <div class="info">
+        <i class="bi bi-geo-alt"></i> {{ locale['location'] }}
+      </div>
     </div>
   </div>
   <div class="row vertical-space"></div>
   <div class="row justify-content-center">
     <div class="col-10 topic u">
-      <i class="bi bi-clipboard-check"></i> Profile
+      <i class="bi bi-clipboard-check"></i> {{ locale['profile'] }}
     </div>
     <div class="row info">
       <div class="col-10">
         <ul class="topic-list">
-          <li><i class="bi bi-briefcase"></i> Senior Software Engineer</li>
-          <li><i class="bi bi-mortarboard"></i> B.Tech. Computer Science</li>
-          <li><i class="bi bi-globe"></i> Web Development</li>
-          <li><i class="bi bi-hdd-stack"></i> Backend Development</li>
-          <li><i class="bi bi-translate"></i> English (Native)</li>
-          <li><i class="bi bi-translate"></i> German (B1)</li>
+          <li><i class="bi bi-briefcase"></i> {{ locale['job_title'] }}</li>
+          <li><i class="bi bi-mortarboard"></i> {{ locale['education'] }}</li>
+          <li><i class="bi bi-globe"></i> {{ locale['web_development'] }}</li>
+          <li>
+            <i class="bi bi-hdd-stack"></i> {{ locale['backend_development'] }}
+          </li>
+          <li><i class="bi bi-translate"></i> {{ locale['english'] }}</li>
+          <li><i class="bi bi-translate"></i> {{ locale['german'] }}</li>
         </ul>
       </div>
     </div>
@@ -65,6 +69,21 @@
       (click)="stackoverflow()"
     >
       <i class="bi bi-stack-overflow"></i>
+    </div>
+  </div>
+  <div class="row vertical-space"></div>
+  <div class="row socials justify-content-center">
+    <div
+      class="col-2 info btn btn-outline-secondary"
+      (click)="switchLanguage('en')"
+    >
+      en
+    </div>
+    <div
+      class="col-2 info btn btn-outline-secondary"
+      (click)="switchLanguage('de')"
+    >
+      de
     </div>
   </div>
 </div>
