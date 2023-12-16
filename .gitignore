@@ -5,6 +5,7 @@ dist
 tmp
 /out-tsc
 nohup.out
+.firebase
 
 # dependencies
 node_modules
