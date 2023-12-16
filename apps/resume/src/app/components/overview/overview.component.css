@@ -19,7 +19,7 @@ ul {
   padding-left: 0px;
 }
 
-.experience-list > li > .row > .col-4 {
+.experience-list .col-5 {
   font-style: italic;
   color: gray;
 }

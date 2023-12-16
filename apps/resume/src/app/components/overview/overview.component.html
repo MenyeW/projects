@@ -2,19 +2,11 @@
 <div class="row">
   <div class="col">
     <div class="row justify-content-center">
-      <div class="col-11 topic">About Me</div>
+      <div class="col-11 topic">{{ locale['about_me'] }}</div>
     </div>
     <div class="row justify-content-center">
       <div class="col-11">
-        <p>
-          I have 9+ years of experience as a software developer, and am
-          currently employed with Immosolve GmbH as a senior software engineer.
-          I have worked with several different software stacks over multiple
-          companies, and am a quick learner of new technologies. I am proficient
-          at backend development, although I can also tackle front-end projects
-          reliably. I find challenging projects exciting, and perform well under
-          pressure.
-        </p>
+        <p>{{ locale['summary'] }}</p>
       </div>
     </div>
   </div>
@@ -25,12 +17,12 @@
     <div class="row justify-content-center">
       <div class="col card link" routerLink="/skills">
         <div class="row justify-content-center card-body">
-          <div class="col-10 topic card-title">Skills</div>
+          <div class="col-10 topic card-title">{{ locale['skills'] }}</div>
           <div class="col-10 card-text">
             <ul class="skill-list">
               <li>
                 <div class="row">
-                  <div class="col-8">Backend Development</div>
+                  <div class="col-8">{{ locale['backend'] }}</div>
                   <div class="col-4">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -42,7 +34,7 @@
               </li>
               <li>
                 <div class="row">
-                  <div class="col-8">System Architecture</div>
+                  <div class="col-8">{{ locale['architecture'] }}</div>
                   <div class="col-4">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -54,19 +46,7 @@
               </li>
               <li>
                 <div class="row">
-                  <div class="col-8">Scalable Development</div>
-                  <div class="col-4">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-half"></i>
-                    <i class="bi bi-star"></i>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="row">
-                  <div class="col-8">Amazon Web Services (AWS)</div>
+                  <div class="col-8">{{ locale['scalable_dev'] }}</div>
                   <div class="col-4">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -78,7 +58,19 @@
               </li>
               <li>
                 <div class="row">
-                  <div class="col-8">Frontend Development</div>
+                  <div class="col-8">{{ locale['aws'] }}</div>
+                  <div class="col-4">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-8">{{ locale['frontend'] }}</div>
                   <div class="col-4">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -90,7 +82,7 @@
               </li>
               <li>
                 <div class="row">
-                  <div class="col-8">Webpage Design</div>
+                  <div class="col-8">{{ locale['web_design'] }}</div>
                   <div class="col-4">
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -106,43 +98,43 @@
       </div>
       <div class="col card link" routerLink="/experience">
         <div class="row justify-content-center card-body">
-          <div class="col-10 topic card-title">Experience</div>
+          <div class="col-10 topic card-title">{{ locale['experience'] }}</div>
           <div class="col-10 card-text">
             <ul class="experience-list">
               <li>
                 <div class="row">
-                  <div class="col-4">Aug 2023 - Present</div>
-                  <div class="col-8">Immosolve GmbH</div>
+                  <div class="col-5">Aug 2023 - {{ locale['present'] }}</div>
+                  <div class="col">Immosolve GmbH</div>
                 </div>
               </li>
               <li>
                 <div class="row">
-                  <div class="col-4">Nov 2019 - Apr 2021</div>
-                  <div class="col-8">Amazon Ltd.</div>
+                  <div class="col-5">Nov 2019 - Apr 2021</div>
+                  <div class="col">Amazon Ltd.</div>
                 </div>
               </li>
               <li>
                 <div class="row">
-                  <div class="col-4">Nov 2018 - Oct 2019</div>
-                  <div class="col-8">PayTM</div>
+                  <div class="col-5">Nov 2018 - Oct 2019</div>
+                  <div class="col">PayTM</div>
                 </div>
               </li>
               <li>
                 <div class="row">
-                  <div class="col-4">Apr 2017 - Feb 2018</div>
-                  <div class="col-8">Lava Mobiles</div>
+                  <div class="col-5">Apr 2017 - Feb 2018</div>
+                  <div class="col">Lava Mobiles</div>
                 </div>
               </li>
               <li>
                 <div class="row">
-                  <div class="col-4">Apr 2014 - Apr 2017</div>
-                  <div class="col-8">InfoEdge</div>
+                  <div class="col-5">Apr 2014 - Apr 2017</div>
+                  <div class="col">InfoEdge</div>
                 </div>
               </li>
               <li>
                 <div class="row">
-                  <div class="col-4">Oct 2013 - Mar 2014</div>
-                  <div class="col-8">Works Applications</div>
+                  <div class="col-5">Oct 2013 - Mar 2014</div>
+                  <div class="col">Works Applications</div>
                 </div>
               </li>
             </ul>
@@ -158,7 +150,7 @@
     <div class="row justify-content-center">
       <div class="col card">
         <div class="row justify-content-center card-body">
-          <div class="col-10 topic card-title">Education</div>
+          <div class="col-10 topic card-title">{{ locale['education'] }}</div>
           <div class="w-100"></div>
           <div class="col-10 card-text">
             <ul class="skill-list">
@@ -170,12 +162,14 @@
       </div>
       <div class="col card">
         <div class="row justify-content-center card-body">
-          <div class="col-10 topic card-title">Recent Certifications</div>
+          <div class="col-10 topic card-title">
+            {{ locale['certifications'] }}
+          </div>
           <div class="w-100"></div>
           <div class="col-10 card-text">
             <ul class="experience-list">
               <li>Angular (Udemy)</li>
-              <li>German Language Proficiency - B2</li>
+              <li>{{ locale['german'] }}</li>
             </ul>
           </div>
         </div>
@@ -189,7 +183,7 @@
     <div class="row justify-content-center">
       <div class="col card">
         <div class="row justify-content-center card-body">
-          <div class="col-10 topic card-title">Awards</div>
+          <div class="col-10 topic card-title">{{ locale['awards'] }}</div>
           <div class="w-100"></div>
           <div class="col-10 card-text">
             <ul class="skill-list">
@@ -202,13 +196,13 @@
       </div>
       <div class="col card">
         <div class="row justify-content-center card-body">
-          <div class="col-10 topic card-title">Hobbies</div>
+          <div class="col-10 topic card-title">{{ locale['hobbies'] }}</div>
           <div class="w-100"></div>
           <div class="col-10 card-text">
             <ul class="experience-list">
-              <li>Swimming</li>
-              <li>Computer Gaming</li>
-              <li>Dungeons and Dragons</li>
+              <li>{{ locale['hobby1'] }}</li>
+              <li>{{ locale['hobby2'] }}</li>
+              <li>{{ locale['hobby3'] }}</li>
             </ul>
           </div>
         </div>
