@@ -13,3 +13,17 @@
 .card {
   margin-right: 1vw;
 }
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.experience-list > li > .row > .col-4 {
+  font-style: italic;
+  color: gray;
+}
+
+.link {
+  cursor: pointer;
+}

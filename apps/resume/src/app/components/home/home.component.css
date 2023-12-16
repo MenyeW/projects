@@ -1,0 +1,21 @@
+.vertical-space {
+  height: 1vh;
+}
+
+.home-nav {
+  border-radius: 100vw;
+  background-color: rgb(55, 70, 80);
+}
+
+.navbar-nav > a {
+  font-size: 1.8vh;
+  color: white;
+  border-radius: 100vw;
+  width: 7vw;
+  text-align: center;
+}
+
+.nav-link.active {
+  border-radius: 100vw;
+  background-color: rgb(5, 30, 40);
+}

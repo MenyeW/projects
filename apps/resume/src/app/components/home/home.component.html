@@ -1,10 +1,32 @@
 <div class="container-fluid">
-  <div class="row">
-    <div class="col">NAVBAR HERE</div>
-  </div>
-  <div class="row">
+  <div class="vertical-space"></div>
+  <div class="row justify-content-center">
     <div class="col">
-      <router-outlet></router-outlet>
+      <nav class="navbar navbar-expand home-nav">
+        <div class="container-fluid">
+          <div class="navbar-nav">
+            <a
+              routerLink=""
+              class="nav-link"
+              routerLinkActive="active"
+              [routerLinkActiveOptions]="{ exact: true }"
+            >
+              Overview
+            </a>
+            <a routerLink="/skills" class="nav-link" routerLinkActive="active">
+              Skills
+            </a>
+            <a
+              routerLink="/experience"
+              class="nav-link"
+              routerLinkActive="active"
+            >
+              Experience
+            </a>
+          </div>
+        </div>
+      </nav>
     </div>
   </div>
+  <router-outlet></router-outlet>
 </div>
