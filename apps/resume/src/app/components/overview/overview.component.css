@@ -9,3 +9,7 @@
   color: rgb(5, 30, 50);
   border-bottom: 1px solid rgb(5, 30, 50);
 }
+
+.card {
+  margin-right: 1vw;
+}
