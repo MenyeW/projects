@@ -25,7 +25,7 @@ export const en = {
     scalable_dev: 'Scalable Development',
     aws: 'Amazon Web Services (AWS)',
     frontend: 'Frontend Development',
-    webdesign: 'Webpage Design',
+    web_design: 'Webpage Design',
     experience: 'Work Experience',
     present: 'Present',
     education: 'Education',
@@ -36,11 +36,11 @@ export const en = {
     hobbies: 'Hobbies',
     hobby1: 'Swimming',
     hobby2: 'Computer Gaming',
-    hobby3: 'Dungeons and Dragons'
+    hobby3: 'Dungeons and Dragons',
   },
   home: {
     overview: 'Overview',
     skills: 'Competencies',
-    experience: 'Experience'
-  }
+    experience: 'Experience',
+  },
 };

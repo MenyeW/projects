@@ -38,11 +38,11 @@ export const de = {
     hobbies: 'Hobbys',
     hobby1: 'Schwimmen',
     hobby2: 'Computer Spielen',
-    hobby3: 'Dungeons and Dragons'
+    hobby3: 'Dungeons and Dragons',
   },
   home: {
     overview: 'Überblick',
     skills: 'Kompetenzen',
-    experience: 'Erfahrung'
-  }
+    experience: 'Erfahrung',
+  },
 };
