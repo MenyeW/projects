@@ -11,4 +11,9 @@ export const de = {
     german: 'Deutsch (B1)',
   },
   overview: {},
+  home: {
+    overview: 'Überblick',
+    skills: 'Kompetenzen',
+    experience: 'Erfahrung'
+  }
 };

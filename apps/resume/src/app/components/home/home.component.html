@@ -11,17 +11,21 @@
               routerLinkActive="active"
               [routerLinkActiveOptions]="{ exact: true }"
             >
-              Overview
+              {{ locale['overview'] }}
             </a>
-            <a routerLink="/skills" class="nav-link" routerLinkActive="active">
-              Skills
+            <a
+              routerLink="/competencies"
+              class="nav-link"
+              routerLinkActive="active"
+            >
+              {{ locale['skills'] }}
             </a>
             <a
               routerLink="/experience"
               class="nav-link"
               routerLinkActive="active"
             >
-              Experience
+              {{ locale['experience'] }}
             </a>
           </div>
         </div>

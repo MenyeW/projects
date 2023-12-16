@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslatorService } from '../../lib/services/translator.service';
 import { Subscription } from 'rxjs';
@@ -10,7 +10,7 @@ import { Subscription } from 'rxjs';
   templateUrl: './sidebar.component.html',
   styleUrl: './sidebar.component.css',
 })
-export class SidebarComponent {
+export class SidebarComponent implements OnDestroy {
   locale: Record<string, string>;
   localeSubscription: Subscription;
 
@@ -22,6 +22,10 @@ export class SidebarComponent {
         console.log(this.locale);
       }
     );
+  }
+
+  ngOnDestroy(): void {
+    this.localeSubscription.unsubscribe();
   }
 
   switchLanguage(language: string) {

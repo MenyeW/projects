@@ -8,7 +8,7 @@ export const appRoutes: Route[] = [
   {
     path: '', component: HomeComponent, children: [
       { path: '', component: OverviewComponent },
-      { path: 'skills', component: SkillsComponent },
+      { path: 'competencies', component: SkillsComponent },
       { path: 'experience', component: ExperienceComponent }
     ]
   },
