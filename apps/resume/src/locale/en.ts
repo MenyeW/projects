@@ -13,7 +13,7 @@ export const en = {
   overview: {
     about_me: 'About Me',
     summary: `I have 9+ years of experience as a software developer, and am
-          currently employed with Immosolve GmbH as a senior software engineer.
+          currently employed with Immosolve GmbH as a Senior Software Engineer.
           I have worked with several different software stacks over multiple
           companies, and am a quick learner of new technologies. I am proficient
           at backend development, although I can also tackle front-end projects
@@ -31,7 +31,7 @@ export const en = {
     education: 'Education',
     btech: 'B.Tech. Computer Science - IIIT Delhi',
     certifications: 'Recent Certifications',
-    german: 'German Language Proficiency - B2',
+    german: 'German Language Proficiency - B1',
     awards: 'Awards',
     hobbies: 'Hobbies',
     hobby1: 'Swimming',

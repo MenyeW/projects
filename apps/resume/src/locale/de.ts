@@ -33,7 +33,7 @@ export const de = {
     education: 'Ausbildung',
     btech: 'BS Computer Wissenschaft - IIIT Delhi',
     certifications: 'Zertifizierungen',
-    german: 'Deutsch Sprachkompetenz - B2',
+    german: 'Deutsch Sprachkompetenz - B1',
     awards: 'Auszeichnungen',
     hobbies: 'Hobbys',
     hobby1: 'Schwimmen',
