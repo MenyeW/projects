@@ -1,0 +1,19 @@
+.vertical-space {
+  height: 1vh;
+}
+
+.topic {
+  font-size: 3vh;
+  font-weight: bold;
+  color: rgb(5, 30, 50);
+  border-bottom: 1px solid rgb(5, 30, 50);
+  margin-bottom: 2vh;
+}
+
+.subtopic {
+  font-size: 2.5vh;
+  font-weight: bold;
+  color: rgb(5, 30, 50);
+  border-bottom: 1px solid rgb(5, 30, 50);
+  margin-bottom: 1vh;
+}

@@ -6,10 +6,12 @@ import { ExperienceComponent } from './components/experience/experience.componen
 
 export const appRoutes: Route[] = [
   {
-    path: '', component: HomeComponent, children: [
+    path: '',
+    component: HomeComponent,
+    children: [
       { path: '', component: OverviewComponent },
       { path: 'competencies', component: SkillsComponent },
-      { path: 'experience', component: ExperienceComponent }
-    ]
+      { path: 'experience', component: ExperienceComponent },
+    ],
   },
 ];
