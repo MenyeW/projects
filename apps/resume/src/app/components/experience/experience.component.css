@@ -22,3 +22,32 @@
   overflow-y: auto;
   max-height: 80vh;
 }
+
+.experience-row {
+  margin-bottom: 1.5vh;
+}
+
+.company-dates {
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+}
+
+.company-title {
+  border-bottom: 1px solid;
+  margin-bottom: 0.5vh;
+}
+
+.company-name {
+  font-weight: bold;
+  font-style: italic;
+  font-size: large;
+}
+
+.company-role {
+  font-style: italic;
+}
+
+.work-desc ul li {
+  list-style-type: '-  ';
+}
