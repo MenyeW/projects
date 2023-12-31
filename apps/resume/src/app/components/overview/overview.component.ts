@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { TranslatorService } from '../../lib/services/translator.service';
@@ -11,7 +11,7 @@ import { Subscription } from 'rxjs';
   templateUrl: './overview.component.html',
   styleUrl: './overview.component.css',
 })
-export class OverviewComponent {
+export class OverviewComponent implements OnDestroy {
   locale: Record<string, string>;
   localeSubscription: Subscription;
 
